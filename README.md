@@ -10,19 +10,19 @@ The advantage of using this particular implementation allows the user to access 
 To <b>initialize</b> a BiHashMap, you can call the standard constructor
 
 <code>
-BiHashMap<String, String> bhm = new BiHashMap<String, String>();
+BiHashMap\<String, String> bhm = new BiHashMap\<String, String>();
 </code>
 
 or define an initial capacity
 
 <code>
-BiHashMap<String, String> bhm = new BiHashMap<String, String>(10);
+BiHashMap\<String, String> bhm = new BiHashMap\<String, String>(10);
 </code>
  
 or defining both initial capacity and loadFactor
 
 <code>
-BiHashMap<String, String> bhm = new BiHashMap<String, String>(10, 0.75);
+BiHashMap\<String, String> bhm = new BiHashMap\<String, String>(10, 0.75);
 </code>
 
 You can add items by simply calling the <b>put</b> method
