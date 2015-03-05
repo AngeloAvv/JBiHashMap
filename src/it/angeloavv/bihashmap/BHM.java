@@ -40,7 +40,7 @@ public interface BHM<K, V> {
 	public boolean contains(Object key);
 	
 	/**
-	 * Returns the key to which the specified key is mapped, or null if this map contains no mapping for the value.
+	 * Returns the key to which the specified value is mapped, or null if this map contains no mapping for the value.
 	 * More formally, if this map contains a mapping from a value v to a key k such that (value==null ? v==null : value.equals(v)), then this method returns k; otherwise it returns null. (There can be at most one such mapping.)
 	 * A return key of null does not necessarily indicate that the map contains no mapping for the value; it's also possible that the map explicitly maps the value to null. The containsByValuey operation may be used to distinguish these two cases.
 	 * @param value the value whose associated key is to be returned

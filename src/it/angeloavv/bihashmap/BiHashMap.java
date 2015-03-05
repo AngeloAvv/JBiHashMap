@@ -13,9 +13,9 @@ import java.util.Set;
  * 
  * @author AngeloAvv
  * @version 1.0
- * {@link https://github.com/AngeloAvv}
- * {@link http://www.mylittlesuite.com}
- *
+ * @see <a href="https://github.com/AngeloAvv">AngeloAvv on GitHub</a>
+ * @see <a href="http://www.mylittlesuite.com">MyLittleSuite</a>
+ * 
  * @param <K> the type of keys maintained by this map
  * @param <V> the type of mapped values
  */
